@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FarizzBlogg</title>
+    <link rel="icon" href="img/icon.jpg" type="image/x-icon" />
+    <!-- LINK KE CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- BOX ICON -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Boostrap -->
+    <link
+      rel="stylesheet"
+      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+    />
+    <!-- CDNJS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <!-- Font Awasome -->
+    <link
+      href="http://fonts.googleapis.com/css?family=Cookie"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <!--header-->
+    <header>
+      <div class="nav container">
+        <!--Nav-->
+        <!--logo-->
+        <a href="#" class="logo">Far<span>izky Blog</span></a>
+        <!--Login Btn-->
+        <a href="#bawah" class="login">About</a>
+      </div>
+    </header>
+
+    <!-- HOME -->
+    <section class="home" id="home">
+      <div class="home-text container">
+        <h2 class="home-tittle">WELCOME TO MY BLOG</h2>
+        <span class="home-subtitle"
+          >Blog Ini berisi tentang pembahasan materi sistem oprasi pada
+          komputer</span
+        >
+      </div>
+    </section>
+
+    <!--Post Filter -->
+    <div class="post-filter container">
+      <span class="filter-item active-filter" data-filter="all">All</span>
+      <span class="filter-item" data-filter="tugas1">TUGAS 1</span>
+      <span class="filter-item" data-filter="tugas2">TUGAS 2</span>
+      <span class="filter-item" data-filter="tugas3">TUGAS 3</span>
+    </div>
+
+    <!-- POSTS -->
+    <section id="balik" class="post container">
+      <!-- post Box 1 -->
+      <div class="post-box tugas1">
+        <img src="img/dos1.png " alt="" class="post-img" />
+        <h2 class="category">DOS</h2>
+        <a href="/blog/dos.html" class="post-title">
+          Pengertian Dan Sejarah
+          <p>DOS</p>
+        </a>
+        <span class="post-date">29 Okt 2024</span>
+        <p class="post-description">
+          Disk Operating System atau lebih dikenal dengan singkatan DOS adalah
+          sebuah perangkat lunak dalam kategori sistem operasi ringan, Sekarang
+          mungkin kita lebih mengenal istilah DOS dengan melihat program
+          aplikasi command promt yang ada di sistem operasi windows, jika memang
+          demikian, kira-kira begitulah sistem operasi DOS berjalan.
+        </p>
+        <!-- Profile -->
+        <div class="profile">
+          <img src="img/img1.jpg" alt="" class="profile-img" />
+          <span class="profile-name">Farizky Ramandita</span>
+        </div>
+      </div>
+      <!-- post Box 2 -->
+      <div class="post-box tugas1">
+        <img src="img/windows.png " alt="" class="post-img" />
+        <h2 class="category">Windows</h2>
+        <a href="/blog/windows.html" class="post-title">
+          Pengertian Dan Sejarah WINDOWS
+        </a>
+        <span class="post-date">29 Okt 2024</span>
+        <p class="post-description">
+          Windows merupakan sebuah sistem operasi yang diciptakan oleh
+          Microsoft, dimana sistem operasi ini menyediakan antarmuka grafis (GUI
+          / Graphical User Interface) agar lebih mudah dioperasikan. Dengan
+          adanya Windows, pengguna tidak perlu lagi mengetikkan perintah melalui
+          command line layaknya pada MS-DOS.
+        </p>
+        <!-- Profile -->
+        <div class="profile">
+          <img src="img/img1.jpg" alt="" class="profile-img" />
+          <span class="profile-name">Farizky Ramandita</span>
+        </div>
+      </div>
+      <!-- post Box 3 -->
+      <div class="post-box tugas1">
+        <img src="img/mac.png " alt="" class="post-img" />
+        <h2 class="category">MAC</h2>
+        <a href="/blog/mac.html" class="post-title">
+          Pengertian Dan Sejarah
+          <p>MAC</p></a
+        >
+        <span class="post-date">29 Okt 2024</span>
+        <p class="post-description">
+          MacOS merupakan salah satu jenis sistem operasi pada komputer yang
+          khusus digunakan untuk untuk mengoperasikan Notebook Apple Macintosh
+          buatan Apple Computer. Menurut catatan sejarah, untuk pertama kalinya
+          Macintosh diperkenalkan ke publik pda Januari 1984 melalui iklan Super
+          Bowl.
+        </p>
+        <!-- Profile -->
+        <div class="profile">
+          <img src="img/img1.jpg" alt="" class="profile-img" />
+          <span class="profile-name">Farizky Ramandita</span>
+        </div>
+      </div>
+      <!-- post Box 4 -->
+      <div class="post-box tugas1">
+        <img src="img/linux.png " alt="" class="post-img" />
+        <h2 class="category">linux</h2>
+        <a href="/blog/linux.html" class="post-title">
+          Pengertian Dan Sejarah LINUX
+        </a>
+        <span class="post-date">29 Okt 2024</span>
+        <p class="post-description">
+          Sistem operasi Linux adalah jenis sistem operasi komputer yang bebas
+          dan sumber terbuka, didistribusikan di bawah lisensi GNU General
+          Public License (GPL) yang memungkinkan pengguna untuk mengunduh,
+          menginstal, dan mengubah kode sumber sistem operasi secara gratis. OS
+          Linux terdiri dari kernel Linux yang dikembangkan oleh Linus Torvalds
+          dan berbagai perangkat lunak yang dikembangkan oleh komunitas
+          open-source. Sebagai sistem operasi yang bebas dan sumber terbuka, OS
+          Linux menjadi populer di kalangan pengguna komputer yang memiliki
+          minat pada teknologi dan ingin lebih memahami cara kerja sistem
+          operasi. Selain itu, OS Linux juga digunakan oleh banyak perusahaan
+          dan organisasi di seluruh dunia karena kemampuannya yang dapat diubah
+          dan disesuaikan sesuai kebutuhan mereka.
+        </p>
+        <!-- Profile -->
+        <div class="profile">
+          <img src="img/img1.jpg" alt="" class="profile-img" />
+          <span class="profile-name">Farizky Ramandita</span>
+        </div>
+      </div>
+      <!-- post Box 5 -->
+      <div class="post-box tugas1">
+        <img src="img/android.jpg" alt="" class="post-img" />
+        <h2 class="category">Android</h2>
+        <a href="/blog/android.html" class="post-title">
+          Sejarah Dan Pengertian ANDROID
+        </a>
+        <span class="post-date">29 Okt 2024</span>
+        <p class="post-description">
+          Android merupakan sebuah sistem operasi seluler yang didasarkan pada
+          versi modifikasi dari kernel Linux dan perangkat sumber terbuka
+          lainnya. Android dirancang untuk perangkat seluler terutama layar
+          sentuh seperti smartphone dan tablet. Sistem operasi ini pertama kali
+          diluncurkan pada bulan September 2008, di mana Android dikembangkan
+          oleh Open Handset Alliance yang disponsori secara komersial oleh
+          Google
+        </p>
+        <!-- Profile -->
+        <div class="profile">
+          <img src="img/img1.jpg" alt="" class="profile-img" />
+          <span class="profile-name">Farizky Ramandita</span>
+        </div>
+      </div>
+      <!-- post Box 6 -->
+      <div class="post-box tugas2">
+        <img src="img/batch.png" alt="" class="post-img" />
+        <h2 class="category">BATCH</h2>
+        <a href="/blog2/batch.html" class="post-title">
+          Pengertian Dan Contoh BATCH
+        </a>
+        <span class="post-date">29 Okt 2024</span>
+        <p class="post-description">
+          Batch system adalah dimana job-job yang mirip dikumpulkan dan
+          dijalankan secara kelompok kemudian setelah kelompok yang dijalankan
+          tadi selesai maka secara otomatis kelompok lain dijalankan.
+        </p>
+        <!-- Profile -->
+        <div class="profile">
+          <img src="img/img1.jpg" alt="" class="profile-img" />
+          <span class="profile-name">Farizky Ramandita</span>
+        </div>
+      </div>
+      <!-- post Box 7-->
+      <div class="post-box tugas2">
+        <img src="img/critical.png" alt="" class="post-img" />
+        <h2 class="category">CRITICAL SECTION</h2>
+        <a href="/blog2/critical.html" class="post-title">
+          Pengertian Dan Contoh CRITICAL SECTION
+        </a>
+        <span class="post-date">29 Okt 2024</span>
+        <p class="post-description">
+          Critical Section adalah bagian dari suatu proses yang akan melakukan
+          akses dan manipulasi data. Ketika sebuah proses sedang dijalankan
+          dalam critical section nya, tidak ada proses lain yang boleh
+          dijalankan dalam critical section tersebut, karena akan menyebabkan
+          keadaanmutually exclusive.
+        </p>
+        <!-- Profile -->
+        <div class="profile">
+          <img src="img/img1.jpg" alt="" class="profile-img" />
+          <span class="profile-name">Farizky Ramandita</span>
+        </div>
+      </div>
+      <!-- post Box 8 -->
+      <div class="post-box tugas2">
+        <img src="/img/pcb1.png" alt="" class="post-img" />
+        <h2 class="category">Process Control Block</h2>
+        <a href="/blog2/pcb.html" class="post-title">
+          Pengertian Dan Contoh
+          <p>PCB</p>
+        </a>
+        <span class="post-date">29 Okt 2024</span>
+        <p class="post-description">
+          Setiap proses yang ada di dalam sistem operasi memperoleh sebuah PCB
+          atau Process Control Block, PCB ini di dalamnya berisi informasi
+          seputar proses tersebut yakni berupa sebuah tanda pengenal atau ID
+          Process yang nantinya akan digunakan sebagai nomor identitas,
+          prioritas eksekusi, status proses, serta tentang informasi tentang
+          lokasi dari proses di dalam sebuah memori.
+        </p>
+        <!-- Profile -->
+        <div class="profile">
+          <img src="img/img1.jpg" alt="" class="profile-img" />
+          <span class="profile-name">Farizky Ramandita</span>
+        </div>
+      </div>
+      <!-- post Box 9 -->
+      <div class="post-box tugas2">
+        <img src="/img/dbs.jpg" alt="" class="post-img" />
+        <h2 class="category">Distributed Processing</h2>
+        <a href="/blog2/dbs.html" class="post-title">
+          Pengertian Dan Contoh Distributed Processing
+        </a>
+        <span class="post-date">29 Okt 2024</span>
+        <p class="post-description">
+          Konsep jaringan komputer lahir pada tahun 1940-an di Amerika pada
+          sebuah proyek pengembangan komputer MODEL I di laboratorium Bell dan
+          group riset Harvard University. Proyek ini dipimpin oleh profesor H.
+          Aiken. Pada mulanya proyek ini hanyalah ingin memanfaatkan sebuah
+          perangkat komputer yang harus digunakan bersama.
+        </p>
+        <!-- Profile -->
+        <div class="profile">
+          <img src="img/img1.jpg" alt="" class="profile-img" />
+          <span class="profile-name">Farizky Ramandita</span>
+        </div>
+      </div>
+      <!-- post Box 10 -->
+      <div class="post-box tugas2">
+        <img src="/img/hand.png" alt="" class="post-img" />
+        <h2 class="category">Handheld</h2>
+        <a href="/blog2/handheld.html" class="post-title">
+          Pengertian Dan Contoh Handheld
+        </a>
+        <span class="post-date">29 Okt 2024</span>
+        <p class="post-description">
+          Handheld computer adalah komputer yang cukup kecil sehingga dapat
+          digenggam. Komputer genggam ini dapat bekerja dengan fungsi yang
+          hampir sama dengan komputer biasa. Meskipun sangat mudah untuk dibawa,
+          komputer genggam tidak dapat menggantikan komputer biasa (PC)..
+        </p>
+        <!-- Profile -->
+        <div class="profile">
+          <img src="img/img1.jpg" alt="" class="profile-img" />
+          <span class="profile-name">Farizky Ramandita</span>
+        </div>
+      </div>
+      <!-- post Box 11 -->
+      <div class="post-box tugas2">
+        <img src="/img/thread.png" alt="" class="post-img" />
+        <h2 class="category">THREAD</h2>
+        <a href="/blog2/thread.html" class="post-title">
+          Pengertian Dan Contoh Thread
+        </a>
+        <span class="post-date">29 Okt 2024</span>
+        <p class="post-description">
+          Thread merupakan sebuah status eksekusi (running, ready, dll.), sering
+          disebut dengan lightweight process. Merupakan unit dasar dari
+          penggunaan CPU, yang terdiri dari thread_id, program counter, register
+          set, dan stack. Sebuah thread berbagi code section, data section, dan
+          sumber daya sistem operasi dengan Thread lain yang dimiliki oleh
+          proses yang sama.
+        </p>
+        <!-- Profile -->
+        <div class="profile">
+          <img src="img/img1.jpg" alt="" class="profile-img" />
+          <span class="profile-name">Farizky Ramandita</span>
+        </div>
+      </div>
+      <!-- post Box 12 -->
+      <div class="post-box tugas3">
+        <img src="img/ram2.png" alt="" class="post-img" />
+        <h2 class="category">RAM</h2>
+        <a href="/blog3/ram.html" class="post-title">
+          RANGKUMAN DAN FUNGSI
+          <p>RAM</p>
+        </a>
+        <span class="post-date">29 Okt 2024</span>
+        <p class="post-description">
+          RAM, atau Random Acces Memory merupakan elemen vital dalam struktur
+          sebuah komputer. Dipasang di motherboard dalam bentuk modul yang
+          dikenal sebagai DIMM (Dual Inline Memory Module), RAM berperan penting
+          dalam proses pengolahan data komputer.
+        </p>
+        <!-- Profile -->
+        <div class="profile">
+          <img src="img/img1.jpg" alt="" class="profile-img" />
+          <span class="profile-name">Farizky Ramandita</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="bawah" class="footer-distributed">
+      <div class="footer-left">
+        <h3>Farizky<span>Blog</span></h3>
+
+        <p class="footer-links">
+          <a href="#">Home</a>
+          |
+          <a href="#bawah">About</a>
+          |
+          <a href="#bawah">Contact</a>
+          |
+          <a href="#balik">Blog</a>
+        </p>
+
+        <p class="footer-company-name">
+          Copyright © 2024 <strong>Farizky Ramandita</strong> All rights
+          reserved
+        </p>
+      </div>
+
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>Indonesia</span> Kot.Jambi</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>0821-7540-1784</p>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p>
+            <a href="mailto:farizkyramndta@gmail.com"
+              >farizkyramndta@gmail.com</a
+            >
+          </p>
+        </div>
+      </div>
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>About Blog</span>
+          <strong>Farizky Blog</strong> Adalah sebuah blog yang berisi tentang
+          pembahasan sistem oprasi.
+        </p>
+        <div class="footer-icons">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+      </div>
+    </footer>
+    <!-- JQUERY -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- LINK KE JS -->
+    <script src="main.js "></script>
+  </body>
+</html>
