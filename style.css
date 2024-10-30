@@ -95,9 +95,7 @@ header.shadow .logo {
 .home {
   width: 100%;
   min-height: 400px;
-  background: url(img/bgHome.jpg);
-  background-size: cover;
-  background-position: center;
+  background: #784420;
   display: grid;
   justify-content: center;
   align-items: center;
